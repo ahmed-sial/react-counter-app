@@ -1,0 +1,38 @@
+.counter-container {
+	height: 30%;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: wheat;
+	border-radius: 1rem;
+}
+.counter-child {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.9rem;
+}
+.counter-child p {
+	font-size: xxx-large;
+	font-weight: 600;
+}
+.button-div {
+	display: flex;
+	gap: 1rem;
+}
+.counter-button {
+	height: 2rem;
+	width: 4rem;
+	border: none;
+	outline: none;
+	box-shadow: 1px 1px 5px;
+	font-size: 1rem;
+	font-weight: 600;
+	transition: transform 0.01s linear 0s;
+	cursor: pointer;
+}
+.counter-button:hover {
+	transform: scale(1.02);
+}
